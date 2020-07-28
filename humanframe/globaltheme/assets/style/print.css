@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* 인쇄모드 */
+
+@media print {
+    .wrapper {min-width:360px !important;padding-top:0 !important;}
+    .header .header-global-wrap,
+    .header .header-gnb-wrap,
+    .header .header-search-wrap,
+    .header .header-theme-util,
+    .snb, 
+    .footer,
+    .content-share-wrap,
+    .content-satisfaction,
+    .comment-write,
+    .content-comment .title { display:none !important;}
+    .header,
+	.dv-mobile .header,
+	.dv-mobile .header-theme-wrap .header-theme,
+    .dv-mobile .header-theme-wrap .header-theme-title-wrap .header-theme-title { display:block;position:relative;left:0;top:0;margin:0;text-align:center;height:auto;border:0;line-height:1;box-shadow:none !important;}    
+	.header-theme-title img { display:inline-block;width:auto;height:30px;margin-bottom:10px;}
+	.content, 
+	.dv-mobile .content { width:912px;max-width:100%;margin-left:0;padding:0;}
+    .content-wrap {max-width:100%;}
+	.content-title-wrap { padding:20px 0;}
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* theme style */
+@media screen and (min-width:1172px){
+    .header .gnb-wrap .gnb > ul > li { width: 20%; }
+    .footer-inner {padding:0 200px 28px 187px;}
+    .footer-inner {}    
+    .footer-nav li:nth-child(3) a:after { display:none;}
+}
+.header .gnb-wrap .gnb > ul > li.field .link-http > span { background:none;}
+#search .icon-key { display:none !important;}
+.footer-nav li a strong { color:#2d2b6f;}

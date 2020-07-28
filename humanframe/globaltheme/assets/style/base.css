@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* base */
+body {font-family:"microsoft neogothic", "applegothic", "맑은 고딕", "malgun gothic","dotum", "돋움", Droid sans, sans-serif;line-height:1.8;letter-spacing:-0.05em;color:#666;font-weight:400;font-size:17px;word-wrap:break-word;word-break:break-all;}
+@media only screen and (max-width:1024px) { body {font-size:16px;-webkit-text-size-adjust:none;-moz-text-size-adjust: none;-ms-text-size-adjust: none;} }
+@media only screen and (max-width:768px) { body {font-size:15px;line-height:1.5;} }
+
+html.ko body {font-family:"Noto Sans", "microsoft neogothic", "applegothic", "맑은 고딕", "malgun gothic","dotum", "돋움", Droid sans, sans-serif;}
+html.en body {font-family:"Noto Sans", "microsoft neogothic", "applegothic", "Arial","맑은 고딕", "Malgun Gothic", Droid sans, sans-serif;}
+html.ja body {font-family:"Noto Sans", "microsoft neogothic", "applegothic", "Meiryo","Hiragino Kaku Gothic Pro", "MS PGothic", "ヒラギノ角ゴ Pro W3", Droid sans, sans-serif;}
+html.zh-CN body {font-family:"Noto Sans", "microsoft neogothic", "applegothic", "Microsoft Yahei", "simsun", Droid sans, sans-serif; }
+html.zh-TW body {font-family:"Noto Sans", "microsoft neogothic", "applegothic", "Microsoft JhengHei","simhei", Droid sans, sans-serif;}
+
+body, div, dl, dt, dd, th, td, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, blockquote, button, input, textarea{margin:0; padding:0;}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main {display:block; margin:0; padding:0;}
+a, address, article, aside, b, body, button, canvas, caption, dd, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, i, input, legend, li, menu, nav, ol, p, section, select, small, span, strong, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*list-style: none;*/
+    font-style: normal;
+    font-family:inherit;
+}
+
+strong {font-weight:bold;}
+table caption {width:0;height:0;font-size:0;line-height:0;}
+legend, .hd-element {display:block;overflow:hidden;position:absolute;left:-999999999999px;width:0;height:0;font-size:0;line-height:0;}
+table {width:100%; border-collapse:collapse; border-spacing:0; table-layout:fixed;}
+img, fieldset, button, input{border:0; vertical-align:middle;}
+body img {max-width:100%;}
+em, address {font-style:normal;}
+button {cursor:pointer;}
+a {text-decoration:none;color:inherit;}
+button {vertical-align:top; background:transparent;}
+button::-moz-focus-inner {padding:0; border:0;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+a, input, select, button, textarea {font-family:inherit;}
+
+ul, ol, li {list-style:none;margin:0;}
+/*ul, ol{
+	list-style-position: outside;
+    list-style-image: none;
+ }*/
+.hidden, .blind, .hd-element{  display:block;overflow: hidden;position:absolute;left:-9999999999999999px;top: -999999px;width:0;height:0;font-size: 0;}
+img { max-width:100%;}
+
+/* form */
+
+input::-ms-clear,
+input::-ms-reveal {display: none; width : 0; height: 0;}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+::-webkit-input-placeholder{color:#888888;font-size:14px;}
+:-moz-placeholder{color:#888888;font-size:14px;}
+::-moz-placeholder{color:#888888;font-size:14px;}
+:-ms-input-placeholder{color:#888888;font-size:14px;}
+
+::-moz-selection {background:#474747; color:#fff;}
+::selection {background:#474747; color:#fff;}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+input {display:inline-block;
+	font-size:16px;
+	border:1px solid #ddd;
+	box-sizing:border-box;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	-webkit-border-radius:0;
+}
+select {
+	display:inline-block;
+    height:34px;
+    padding:0 0 0 6px;
+    border:1px solid #ddd;
+    background-color:#fff;
+    font-size:16px;
+    line-height:34px;
+    color:#555;
+	vertical-align:middle;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+textarea {  display:block;
+    width:100%;
+	min-height:90px;
+    padding:5px 10px;
+    background-color:#fff;
+    font-size:16px;
+    color:#555;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+img, iframe, video { max-width:100%;border:0;}
+button { border-radius:0;}
+code {
+    margin:0;padding:0;
+    font-family: monospace;line-height:1.8;
+}
+pre {
+    margin:0;padding:0;
+    white-space: pre-wrap;line-height:1.8;
+    font-family:inherit;
+}
+.layer-prevent {display:block;position:absolute;left:0;top:0;bottom:0;right:0;width:100%;height:100%;background:transparent;z-index:3;}

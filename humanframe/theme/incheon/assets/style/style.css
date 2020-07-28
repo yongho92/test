@@ -1,0 +1,5 @@
+@charset "UTF-8";
+@import url("../../../../globaltheme/assets/style/layout-portal.css");
+@import url("theme.css");
+@import url("content.css");
+@import url("article.css");
