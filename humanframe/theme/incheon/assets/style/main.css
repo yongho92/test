@@ -229,7 +229,7 @@
     .main-slogan-wrap,
     .main-search-wrap { float:none;text-align:center;margin:0 auto;}
     .main-slogan-wrap { width:60%;}
-    .main-search-wrap {  width:80%;margin:20px auto 0 auto;}
+    .main-search-wrap {  width:65%;margin:20px auto 0 auto;}
     .main-search-wrap .btn-keyboardui { display:none;}
 }
 @media only screen and (max-width:768px){
@@ -241,6 +241,7 @@
 @media only screen and (max-width:480px){
     .main-slogan-wrap { width:60%;}
     .main-search-wrap { margin-top:10px;}
+    .main-search-wrap .box .search-input-group{margin-right:72px;}
 }    
 @media only screen and (max-width:360px){   
     .main-search-wrap .box label { font-size:calc(14px)}
