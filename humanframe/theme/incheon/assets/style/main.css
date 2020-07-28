@@ -802,7 +802,6 @@ body.fixed {
 }
 
 @media only screen and (max-width:480px){
-    .main-search-wrap{height:100px;}
     .main-search-wrap .box label{width:100%;}
     .main-search-wrap .box input{width:100%;}
     .main-sns .sns-list ul{margin-top:17%;}
