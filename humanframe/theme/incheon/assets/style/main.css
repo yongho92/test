@@ -789,7 +789,7 @@ body.fixed {
 
 @media only screen and (max-width:768px){
     .main-sns h1.title{padding:34px 0 20px;}
-    .main-sns .sns-list ul > li > button.sns-tab{width:auto; height:32px; line-height:31px; top:14%; padding:0 7px; font-size:14px;}
+    .main-sns .sns-list ul > li > button.sns-tab{width:80px; height:32px; line-height:31px; top:14%; padding:0 7px; font-size:14px;}
     .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:83px;}
     .main-sns .sns-list ul > li:nth-child(3) > button.sns-tab{left:193px;}
     .main-sns .sns-list ul > li > button.sns-tab span{padding-left:24px; background-size: 20px; background-position: 0 center;}
@@ -810,7 +810,7 @@ body.fixed {
     .main-sns .sns-list ul li ul li:nth-child(2){margin:0 0 20px 0;}
     .main-sns .sns-list ul li ul li:last-child{margin:0 0 20px 0;}
     .main-sns .sns-list ul > li > button.sns-tab{width:auto; height:28px; line-height:27px; top:5%; padding:0 10px;}
-    .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:95px;}
+    .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:95px; width:108px;}
     .main-sns .sns-list ul > li:nth-child(3) > button.sns-tab{left:218px;}
     .main-sns .sns-list ul > li > button.sns-tab span{padding-left:24px; background-size: 20px; background-position: 0 0;}
     .main-sns .sns-list ul li ul li .sns-txt p{margin:10px 0 2px;}
