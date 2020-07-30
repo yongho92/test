@@ -721,7 +721,7 @@ body.fixed {
 
 /*메인 sns*/
 .main-sns{}
-.main-sns h1.title {font-family:"Noto Sans";font-size:36px;color:#333;font-weight:normal;padding: 34px 0 27px;}
+.main-sns h1.title {font-family:"Noto Sans";font-size:36px;color:#333;font-weight:normal;padding: 34px 0;}
 .main-sns h1.title > span {font-size:30px;}
 .main-sns h1.title > strong {color:#1c236c; font-weight:bold;}
 .main-sns .sns-list{margin-bottom:80px;height: 100%;}
@@ -751,6 +751,9 @@ body.fixed {
 .main-sns .sns-list ul li ul li .sns-txt{}
 .main-sns .sns-list ul li ul li .sns-txt p{font-size:16px;font-weight:500;color:#333;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin: 13px 0 2px;line-height: 20px;}
 .main-sns .sns-list ul li ul li .sns-txt span{font-size:15px;font-weight:100;color:#666;}
+.main-sns .sns-list ul li .more_sns{position: absolute; top: 97px; right: 2px; display:none;}
+.main-sns .sns-list ul li .more_sns.on{display:block;}
+.main-sns .sns-list ul li .more_sns a{font-size: 16px; padding-right: 15px; background: url(../image/icon-plus-blue.png) no-repeat right center / 11px; color: #1c236c;}
 
 .main-sns .sns-list2{position: absolute;top: 53px;right:0;}
 .main-sns .sns-list2 ul{overflow:hidden; padding-bottom:0;}
@@ -779,11 +782,14 @@ body.fixed {
     .main-sns .sns-list2 ul li{width:auto; margin:0 15px 0 0;}
 
     .main-pm-box{margin: 30px 4vw 0 4vw;}
+
+    .main-sns .sns-list ul li .more_sns{top:148px;}
 }
 
 @media only screen and (max-width:820px){
     .main-sns h1.title{font-size: 5.9vw;}
     .main-sns h1.title > span{font-size: 4.9vw;}
+    .main-sns .sns-list ul{margin-top:60px;}
     .main-sns .sns-list ul > li > button.sns-tab{top:130px;}
     .main-sns .sns-list ul li ul li{width:49%; margin:0 2% 3% 0;}
     .main-sns .sns-list ul li ul li:nth-child(2){margin:0 0 3% 0;}
@@ -791,6 +797,7 @@ body.fixed {
     .main-sns .sns-list ul li ul li .sns-img{height:auto;}
     .main-sns .sns-list2{top:133px;}
     .main-sns .sns-list2 ul li h4{margin-bottom:10px;}
+    .main-sns .sns-list ul li .more_sns{top:180px;}
 }
 
 @media only screen and (max-width:768px){
@@ -806,19 +813,23 @@ body.fixed {
     .main-sns .sns-list2 ul li{margin:0 9px 0 0;}
     .main-sns .sns-list2 ul li:last-child{margin:0;}
     .main-sns .sns-list2 ul li a{background-size: 25px 25px; width:25px; height:25px; padding-left:0;}
+    .main-sns .sns-list ul li .more_sns{top:133px;}
+    .main-sns .sns-list ul li .more_sns a{font-size:15px;}
 }
 
 @media only screen and (max-width:480px){
     .main-search-wrap .box label{width:100%;}
     .main-search-wrap .box input{width:100%;}
-    .main-sns .sns-list ul{margin-top: 75px;}
+    .main-sns .sns-list ul{margin-top: 80px;}
     .main-sns .sns-list ul > li > button.sns-tab{width:auto;height:28px;line-height:27px;top: 73px;padding:0 10px;}
-    .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:95px;}
-    .main-sns .sns-list ul > li:nth-child(3) > button.sns-tab{left:218px;}
+    .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:87px;}
+    .main-sns .sns-list ul > li:nth-child(3) > button.sns-tab{left:202px;}
     .main-sns .sns-list ul > li > button.sns-tab span{padding-left:24px; background-size: 20px; background-position: 0 0;}
     .main-sns .sns-list ul li ul li .sns-txt p{margin:10px 0 2px;}
     .main-sns .sns-list2{top: 111px;left:0;}
     .main-sns .sns-list2 ul li{margin:0 15px 0 0;}
+    .main-sns .sns-list ul li .more_sns{top:137px;}
+    .main-sns .sns-list ul li .more_sns a{font-size:14px; background-size: 8px; padding-right:12px;}
 
     .main-pm-box a{height:50px; line-height: 50px; font-size: 16px; }
     .main-pm-box a:before{width:50px; height:50px; background-size: 8px;}
