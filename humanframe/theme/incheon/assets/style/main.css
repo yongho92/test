@@ -822,7 +822,7 @@ body.fixed {
     .main-search-wrap .box input{width:100%;}
     .main-sns .sns-list ul{margin-top: 80px;}
     .main-sns .sns-list ul > li > button.sns-tab{width:85px;height:28px;line-height:27px;top: 73px;padding:0 10px;}
-    .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:87px; width:111px;}
+    .main-sns .sns-list ul > li:nth-child(2) > button.sns-tab{left:88px; width:111px;}
     .main-sns .sns-list ul > li:nth-child(3) > button.sns-tab{left:202px;}
     .main-sns .sns-list ul > li > button.sns-tab span{padding-left:24px; background-size: 20px; background-position: 0 0;}
     .main-sns .sns-list ul li ul li .sns-txt p{margin:10px 0 2px;}
