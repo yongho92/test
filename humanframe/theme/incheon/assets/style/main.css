@@ -727,7 +727,7 @@ body.fixed {
 .main-sns .sns-list{margin-bottom:80px;height: 100%;}
 .main-sns .sns-list ul{}
 .main-sns .sns-list ul > li{}
-.main-sns .sns-list ul > li > button.sns-tab{display:inline-block;width:130px;height:38px;line-height: 36px;border-radius: 20px;font-size: 16px;color: #555;border:1px solid #ddd;text-align: center;position: absolute;top: 50px;right: 0;}
+.main-sns .sns-list ul > li > button.sns-tab{display:inline-block;width:130px;height:38px;line-height: 36px;border-radius: 20px;font-size: 16px;color: #555;border:1px solid #ddd;text-align: center;position: absolute;top: 50px;right: 0; background-color: #fff;}
 .main-sns .sns-list ul > li > button.on{background-color: #1471ac; color:#fff; border:none;}
 .main-sns .sns-list ul > li:nth-child(3){}
 .main-sns .sns-list ul > li:nth-child(1) > button.sns-tab{right: 580px;}
